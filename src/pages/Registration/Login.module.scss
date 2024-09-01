@@ -15,8 +15,30 @@
   margin-bottom: 30px !important;
 }
 
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30px;
+}
+
 .avatar {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+.avatarButtons {
+  position: absolute;
+  bottom: -15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  gap: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.avatarContainer:hover .avatarButtons {
+  opacity: 1;
 }

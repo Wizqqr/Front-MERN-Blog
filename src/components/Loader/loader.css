@@ -1,0 +1,27 @@
+/* src/components/Loader.css */
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+    animation: fadeIn 2.5s ease-in-out;
+  }
+  
+/* src/components/Loader.css */
+.logo {
+    width: 150px; /* или размер вашей картинки */
+    margin-bottom: 20px;
+  }
+  
+  .site-name {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  

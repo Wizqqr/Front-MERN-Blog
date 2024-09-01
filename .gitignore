@@ -21,3 +21,32 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+# Node.js/Express
+node_modules/
+npm-debug.log
+.env
+.DS_Store
+coverage/
+build/
+dist/
+.vscode/
+.idea/
+
+# React
+build/
+*.log
+.env
+.DS_Store
+*.lock
+coverage/
+.vscode/
+.idea/
+
+# Общие
+*.iml
+*.swp
+*.swo
+
